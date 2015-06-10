@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="sk.upjs.ics.bff.DrinkTestFragment"
+    android:background="@drawable/bg_gradient"
+    >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="32dp"
+        android:text="WHAT COLOR IS WRITTEN ?"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+<ImageView
+    android:id="@+id/imgDrinkTest"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="50dp"
+    />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <EditText
+        android:id="@+id/drunkTestResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TYPE RESPONSE HERE..."
+        android:layout_marginRight="50dp"
+        />
+    <Button
+        android:id="@+id/drunkTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+
+        />
+</LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</FrameLayout>

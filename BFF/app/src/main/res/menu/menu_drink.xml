@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="sk.upjs.ics.bff.DrinkActivity">
+    <item
+        android:id="@+id/skip"
+        android:title="SKIP"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        app:showAsAction="always"/>
+
+</menu>

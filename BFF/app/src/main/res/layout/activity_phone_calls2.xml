@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_gradient"
+    tools:context="sk.upjs.ics.bff.util.PhoneCalls">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <fragment
+        android:id="@+id/phoneCallsFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:name="sk.upjs.ics.bff.PhoneCallsFragment"
+        />
+
+    <fragment
+        android:id="@+id/drinkTestFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:name="sk.upjs.ics.bff.DrinkTestFragment"
+        />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
